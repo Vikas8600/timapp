@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include timapp *.css
+recursive-include timapp *.csv
+recursive-include timapp *.html
+recursive-include timapp *.ico
+recursive-include timapp *.js
+recursive-include timapp *.json
+recursive-include timapp *.md
+recursive-include timapp *.png
+recursive-include timapp *.py
+recursive-include timapp *.svg
+recursive-include timapp *.txt
+recursive-exclude timapp *.pyc
